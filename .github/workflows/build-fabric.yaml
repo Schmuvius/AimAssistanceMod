@@ -10,7 +10,7 @@ on:
       - common/**
       - fabric/**
   push:
-    branches: [ "main" ]
+    branches: [ "main", "player-targeting" ]
     paths:
       - .github/workflows/build-fabric.yaml
       - build.gradle.kts
